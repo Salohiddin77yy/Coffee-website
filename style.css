@@ -1,0 +1,339 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+    justify-content: center;
+    gap: 100px;
+    font-weight: bold;
+}
+
+header span {
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header span img {
+    width: 20px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section1div {
+    background-image: url('rasimlar/adaf6685ce73a1a27b1add9d8cca9556966e9f73 (3).jpg');
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1400px;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: auto;
+}
+
+.section2div p {
+    color: #1D1F2EB2;
+}
+
+.section1div button {
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+    background-color: antiquewhite;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.section2div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.section2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.section3div {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+}
+
+.coffeecard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+} 
+
+.coffeecard img {
+    width: 350px;
+    height: 400px;
+}
+
+.section4 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.section4div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+}
+
+.coffeecard2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.coffeecard2 img {
+    width: 250px;
+}
+
+.negr {
+    background-color: grey;
+    width: 40px;
+    height: 2px;
+}
+
+.qora {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.section5 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.section5div {
+    display: flex;
+    align-items: center; 
+    gap: 50px;
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.kattaimg {
+    width: 300px;
+    height: 400px;
+}
+
+.maydaimg {
+    width: 200px;
+    height: 185px;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offer h3 {
+    font-size: 35px;
+}
+
+.offer button {
+    width: 150px;
+    padding: 10px;
+    background-color: #1D1F2E;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.offer p {
+    color: #1D1F2EB2;
+    font-size: 18px;
+}
+
+.images {
+    width: 1400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.section6 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.section6div {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+    margin: auto;
+    height: 400px;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+}
+
+.card h3 {
+    color: #1D1F2E;
+    font-weight: 400;
+}
+
+.card p {
+    color: #1D1F2EB2;
+    font-weight: 400;
+}
+
+.card span {
+    color: #1D1F2E;
+}
+
+.section7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D1F2E;
+    padding: 80px;
+}
+
+.section7div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.section7div input {
+    padding: 15px;
+    width: 240px;
+    border-radius: 3px;
+    border: 2px solid #2F303E;
+    text-transform: uppercase;
+    background: none;
+}
+
+.section7div button {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.footerdiv {
+    display: flex;
+    gap: 200px;
+}
+
+.footerdivcha {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerdivcha a {
+    text-decoration: none;
+    color: #1D1F2EB2;
+}
+
+.footerdiv span {
+    letter-spacing: 1px;
+}
+
+.malumot {
+    display: flex;
+    gap: 750px;
+}
